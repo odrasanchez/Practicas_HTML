@@ -1,0 +1,179 @@
+<!--  PRACTICA: Uso de listas -->
+
+<!-- Definicion de cabecera -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//ES” "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml" xml: lang = "en" lang = "en">
+    <head>
+        <title> Listas </title>
+        <!--- Metadatos -->
+            <meta charset="utf-8" />
+			<meta name="description" content="Aplicacion de listas en HTML" />
+			<meta name="author" content="0draS0" />
+			<meta name="keywords" content="html, listas, ordenadas, no ordenadas" />
+    </head>
+    <body>
+    <!--Contenido del documento-->
+        <h1> Listas </h1>
+        <p> Encontramos diferentes tipos de presentaci&oacute;n de datos en forma de lista, estos son: definici&oacute;n, ordenada y desordenada. A continuaci&oacute;n se presentan ejemplos de uso de cada tipo.</p>
+        <br>
+        <br>
+            <!-- Ejemplos de uso de lista de definicion -->
+            <h2> Lista de definici&oacute;n </h2>
+            <p>Son apropiadas para glosarios, catálogos, etc.</p>
+            <b> Ejemplo 1: </b>
+                <dl>  <!-- Apertura de la lista -->
+                    <dt> <!-- Término o titulo -->
+                        Blue
+                    </dt> 
+                        <dd> <!-- Descripción -->
+                            <i>Of a color intermediate between green and violet, as of the sky or sea on a sunny day.</i>
+                        </dd> 
+                    <dt> <!-- Término o titulo -->
+                        Yellow
+                    </dt>
+                        <dd> <!-- Descripción -->
+                            <i>Of the color between green and orange in the spectrum, a primary subtractive color complementary to blue.</i>
+                        </dd>
+                </dl>  <!-- Cierre de la lista -->
+            <br>
+            <b> Ejemplo 2: </b>
+                <dl>  <!-- Apertura de la lista -->
+                    <dt> <!-- Término o titulo -->
+                        Instagram
+                    </dt> 
+                        <dd> <!-- Descripción -->
+                            <i>Instagram is a photo and video sharing social networking service founded in 2010 by Kevin Systrom and Mike Krieger, and later acquired by American company Facebook Inc.</i>
+                        </dd> 
+                    <dt> <!-- Término o titulo -->
+                        Facebook
+                    </dt>
+                        <dd> <!-- Descripción -->
+                            <i>Meta Platforms, Inc., doing business as Meta and formerly known as Facebook, Inc., and TheFacebook, Inc., is an American multinational technology conglomerate based in Menlo Park, California.</i>
+                        </dd>
+                    <dt> <!-- Término o titulo -->
+                        Twitter
+                    </dt>
+                        <dd> <!-- Descripción -->
+                            <i>Twitter, Inc. is an American communications company based in San Francisco, California. The company operates the microblogging and social networking service Twitter.</i>
+                        </dd>
+                </dl>  <!-- Cierre de la lista -->
+            <br>
+            <br>
+            <!-- Ejemplos de uso de listas ordenadas y los tipos de orden -->
+            <h2>Listas ordenadas</h2>
+            <p>Se utiliza para relacionar elementos con un orden determinado precedido de un número o letra que se incrementa automáticamente.</p>
+                <b> Ejemplo 1: </b>
+                    <p> Lista con n&uacute;meros Romanos en min&uacute;sculas</p>
+                    <ol type="i"> <!-- Etiqueta que indica la minúscula romana y el inicio de la lista -->
+                        <li>Introducci&oacute;n</li>
+                        <li>XHTML </li>
+                        <li>CSS</li>
+                        <li>Navegadores</li>
+                        <li>Ap&eacute;ndice A. Glosario </li>
+                    </ol> <!-- Cierre de lista -->
+                <br>
+                <b> Ejemplo 2: </b>
+                    <p> Lista con n&uacute;meros Romanos en may&uacute;sculas</p>
+                    <ol type="I"> <!-- Etiqueta que indica la mayúscula romana y el inicio de la lista -->
+                        <li>Introducci&oacute;n</li>
+                        <li>XHTML </li>
+                        <li>CSS</li>
+                        <li>Navegadores</li>
+                        <li>Ap&eacute;ndice A. Glosario </li>
+                    </ol> <!-- Cierre de lista -->
+                <br>
+                <b> Ejemplo 3: </b>
+                    <p> Lista con letras en may&uacute;sculas</p>  
+                    <ol type="A"> <!-- Etiqueta que indica el abecedario y el inicio de la lista -->
+                        <li>Introducci&oacute;n</li>
+                        <li>XHTML </li>
+                        <li>CSS</li>
+                        <li>Navegadores</li>
+                        <li>Ap&eacute;ndice A. Glosario </li>
+                    </ol> <!-- Cierre de lista -->
+                <br>
+                <b> Ejemplo 4: </b>
+                    <p> Lista con letras en min&uacute;sculas</p>  
+                    <ol type="a"> <!-- Etiqueta que indica el abecedario y el inicio de la lista -->
+                        <li>Introducci&oacute;n</li>
+                        <li>XHTML </li>
+                        <li>CSS</li>
+                        <li>Navegadores</li>
+                        <li>Ap&eacute;ndice A. Glosario </li>
+                    </ol> <!-- Cierre de lista -->
+                <br>
+                <b> Ejemplo 5: </b>
+                    <p> Lista con n&uacute;meros</p>
+                    <ol type="1"> <!-- Etiqueta que indica el número y el inicio de la lista -->
+                        <li>Introducci&oacute;n</li>
+                        <li>XHTML </li>
+                        <li>CSS</li>
+                        <li>Navegadores</li>
+                        <li>Ap&eacute;ndice A. Glosario </li>
+                    </ol> <!-- Cierre de lista -->
+            <br>
+            <br>
+            <h2> Listas no ordenadas </h2>
+            <p>Se utilizan para relacionar elementos sin orden específico.</p>
+                <b> Ejemplo 1: </b>
+                    <p>Lista con uso de figuras cuadradas</p>
+                    <ul type="square"> <!-- Etiqueta que indica el tipo de figura y el inicio de la lista -->
+                        <li>Alumnos</li>
+                        <li>Profesores</li>
+                        <li>Bancas</li>
+                        <li>Aulas</li>
+                    </ul> <!-- Cierre de lista -->
+                <br>
+                <b> Ejemplo 2: </b>
+                    <p>Lista con uso de figuras circulares o discos</p>
+                    <ul type="circle"> <!-- Etiqueta que indica el tipo de figura y el inicio de la lista -->
+                        <li>Alumnos</li>
+                        <li>Profesores</li>
+                        <li>Bancas</li>
+                        <li>Aulas</li>
+                    </ul> <!-- Cierre de lista -->
+                <br>
+                <b> Ejemplo 3: </b>
+                    <p>Lista con uso de puntos, establecido de manera predefinida por HTML</p>
+                    <ul> <!-- Etiqueta que indica el tipo de figura y el inicio de la lista -->
+                        <li>Alumnos</li>
+                        <li>Profesores</li>
+                        <li>Bancas</li>
+                        <li>Aulas</li>
+                    </ul> <!-- Cierre de lista -->
+            <br>
+            <br>
+            <h2> Listas anidadas</h2>
+            <p> Este ejemplo recopila el uso de listas ordenadas y no ordenadas.</p>
+                     <ul type="square">
+                        <li>Europa</li>
+                            <ol type="I">
+                                <li>Alemania</li>
+                                <li>Dinamarca</li>
+                                <li>Francia</li>
+                            </ol>
+                        <li>Am&eacute;rica</li>
+                            <ol type="I">
+                                <li>Guatemala</li>
+                                <li>M&eacute;xico</li>
+                                <li>Estados Unidos</li>
+                            </ol>
+                        <li>&Aacute;frica</li>
+                            <ol type="I">
+                                <li>Egipto</li>
+                                <li>Etiop&iacute;a</li>
+                                <li>Nigeria</li>
+                            </ol>
+                        <li>Asia</li>
+                            <ol type="I">
+                                <li>Japón</li>
+                                <li>Filipinas</li>
+                                <li>China</li>
+                            </ol>
+                        <li>Ocean&iacute;a</li>
+                            <ol type="I">
+                                <li>Australia</li>
+                            </ol>
+                    </ul>
+    </body>
+</html>  
