@@ -1,0 +1,56 @@
+<!--  PRACTICA: Imagenes -->
+
+<!-- Definicion de cabecera -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//ES” "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml" xml: lang = "en" lang = "en">
+    <head>
+        <title> Imagenes </title>
+        <!--- Metadatos -->
+            <meta charset="utf-8" />
+            <meta name="description" content="Uso y tipos de imagenes" />
+            <meta name="author" content="0draS0" />
+            <meta name="keywords" content="html, imagenes, imagenes mapeadas" />
+    </head>
+    <body>
+    <!--Contenido del documento-->
+        <h1>IM&Aacute;GENES</h1>
+        <p>Son elementos importantes que aportan ilustraciones para detallar mejores explicaciones. Nos encontramos con el siguiente tipo:</p>
+        <br>
+        <br>
+        <h3>Im&aacute;genes de contenido</h3>
+        <p>Proporcionan información y complementan el contenido. A continuación, un breve texto y una imagen para ilustrar el contenido.</p>
+        <br>
+        <table border="1" align="center" cellpadding=8px> <!-- Ejemplo de imagen de contenido, tabla de informacion -->
+            <tr> <!-- Fila -->
+                <th><b>EL QUETZAL</b></th>
+            </tr>
+            <tr> <!-- Fila -->
+            <td> <!-- Columna -->
+                    <p><i>La ciencia ha encontrado a los antepasados del quetzal en <br>ecosistemas similares de África, Europa y Asia. <br>
+        Esta ave monógama habita los bosques tropicales y subtropicales y se alimenta de<br> aguacatillos, insectos y moluscos, lagartijas y ranas, entre otros, mientras sus <br>depredadores naturales son la tucaneta verde, las ardillas y otros mamíferos <br>nocturnos; los búhos, halcones y aguilillas, pero sobre todo los humanos que lo <br>capturan para venderlo como mascota, sin saber que no sobrevive al cautiverio. </i></p>
+            </td>
+            </tr>
+            <tr> <!-- Fila -->
+            <td align="center"> <!-- Columna -->
+                <img src="https://www.gob.mx/cms/uploads/article/main_image/66871/quetzal.jpg" alt="Fotografía de Quetzal" width="300" height="200"/>
+            </td>
+            </tr>
+            <tr> <!-- Fila -->
+                <td> <!-- Columna -->
+                    <p>Fuente: https://www.gob.mx/semarnat/articulos/quetzal-el-ave-mas-bella-de-america?idiom=es</p>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <h3> Imagen mapeada </h3>
+             <p>Da click en la computadora, el tel&eacute;fono o la taza de café para dirigirte a una nueva p&aacute;gina y leer acerca del tema:</p>
+            <img src="https://yt3.ggpht.com/ytc/AKedOLTAkh5TAGCq4TgHg5LdhkwpzaEGjJbABKvjE0enFA=s900-c-k-c0x00ffffff-no-rj" alt="lugardetrabajo" usemap="#lugardetrabajo" width="400" height="379" /> <!-- Imagen con la que se trabaja el mapeado -->
+                <map name="lugardetrabajo"> <!-- La etiqueta indica en que elemento se va a mapear -->
+                    <!-- La obtencion de coordenadas para cada figura fue obtenida con las herramientas del programa de edicion GIMP -->
+                    <area shape="rect" coords="35,41,268,340" alt="Computadora" href="https://es.wikipedia.org/wiki/Computadora"> <!-- Figura cuadrada que enmcarca el ordenador -->
+                    <area shape="rect" coords="292,168,330,240" alt="telefono" href="https://es.wikipedia.org/wiki/Tel%C3%A9fono"> <!-- Figura cuadrada que enmcarca el celular --> 
+                    <area shape="circle" coords="339,303,41" alt="taza de cafe" href="https://es.wikipedia.org/wiki/Caf%C3%A9"> <!-- Figura circular que enmcarga la taza de cafe -->
+                </map>
+    </body>
+</html>
