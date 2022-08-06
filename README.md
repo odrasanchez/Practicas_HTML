@@ -2,12 +2,11 @@
 
 _Repositorio con compendio de ejercicios académicos para la introducción al desarrollo web con HTML5 y CSS3. Los ejercicios contienen algunos ejemplos de uso y consejos, además el repositorio cuenta con ejemplos de páginas completas que aprovechan el uso de la mayoría de etiquetas._
 
-### Situación de repositorio
-<img src="https://img.shields.io/badge/Coverage-15%25-dbc9f1?style=for-the-badge" /> <img src="https://img.shields.io/badge/STATUS-In%20progress-dbc9f1?style=for-the-badge" /> <img src="https://img.shields.io/github/stars/0draS0/HTML-beginners-?color=dbc9f1&style=for-the-badge" /> 
+### Situación de repositorio 📊️
+<img src="https://img.shields.io/badge/Coverage-15%25-dbc9f1?style=for-the-badge" />  <img src="https://img.shields.io/github/stars/0draS0/HTML-Practicas?color=dbc9f1&style=for-the-badge" />  <img src="https://img.shields.io/badge/Version-1.0-dbc9f1?style=for-the-badge" />
 
 ### Tecnologías utilizadas 🔨
-  - Sublime Text 3
-  - Navegador Firefox (visualización final)
+<img src="https://img.shields.io/badge/sublimetext-Code?style=for-the-badge&logo=sublimetext&logoColor=black&color=dbc9f1" /> <img src="https://img.shields.io/badge/Navegador_Firefox-Code?style=for-the-badge&logo=firefoxbrowser&logoColor=black&color=dbc9f1" />
 
 ### Notas importantes ⚠
   - El idioma del contenido de los archivos así como de comentarios está en Español (Méx).
