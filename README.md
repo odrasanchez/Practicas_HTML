@@ -9,7 +9,7 @@ _Repositorio con compendio de ejercicios académicos para la introducción al de
 <br>
 
 ### Tecnologías utilizadas 🔨
-<img src="https://img.shields.io/badge/sublimetext-Code?style=for-the-badge&logo=sublimetext&logoColor=black&color=FFB4A2" /> <img src="https://img.shields.io/badge/Navegador_Firefox-Code?style=for-the-badge&logo=firefoxbrowser&logoColor=black&color=FFB4A2" />
+<img src="https://img.shields.io/badge/Visual_Studio_Code-Code?style=for-the-badge&logo=visualstudiocode&logoColor=black&color=FFB4A2" /> <img src="https://img.shields.io/badge/Google_Chrome-Code?style=for-the-badge&logo=googlechrome&logoColor=black&color=FFB4A2" />
 
 ### Notas importantes ⚠
   - El idioma del contenido de los archivos así como de comentarios está en Español (MX).
