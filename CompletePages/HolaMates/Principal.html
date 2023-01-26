@@ -1,0 +1,116 @@
+<!--  PROYECTO: HolaMates, página básica para proveer a los alumnos elementos para las materias de matemáticas -->
+
+<!-- Definicion de cabecera -->
+<!DOCTYPE html>
+<head>
+	<!--- Metadatos -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Proyecto de formularios matematicos" />
+	<meta name="author" content="0draS0" />
+	<meta name="keywords" content="html, texto, parrafo" />
+	
+	<!-- Titulo visible en la pestaña del navegador -->
+	<title>HolaMates</title>
+
+    <!-- CSS Incrustado -->
+    <style type="text/css">
+
+        * { /*selector universal, aplica en todo el archivo*/
+            margin:auto;
+            padding:auto;
+            }
+
+        #P-fondo {
+            background: url(recursos/fondo-principal.jpg);  /*ruta de la imagen*/
+            background-size: cover; /* se especifica el tamaño de la imagen*/
+            background-repeat: no-repeat;
+            margin: 0;
+            height: 100 vh;
+        }
+     
+        #barra-nav {
+            margin:50px auto;
+            width:599px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+     
+        ul, ol {
+          list-style:none; /*Eliminamos el punto que se genera en las listas*/
+        }
+
+        .nav {
+            width:0 auto;
+            margin:0 auto; /*Centramos automaticamente*/
+        }  
+
+        .nav > li {  
+            float:left;
+        }
+
+     .nav li a {
+           background-color:#959697;
+           color:#ffffff;
+           text-decoration:none; /*Eliminamos el subrayado de links*/
+           padding: 15px 12px;
+           display:block;
+           }
+
+     .nav li a:hover { /*Color que se muestra al colocar el puntero sobre la casilla*/
+           background-color:#5e5f5f;  
+           }
+
+     .nav li ul {
+           display:none;
+           position:absolute;
+           min-width:140px;
+           }
+     .nav li:hover > ul {
+           display:block;
+           }
+     .nav li ul li {
+           position:relative;
+           }
+     .nav li ul li ul {
+           right:-140px;
+           top:0px;
+           }
+
+     #intro{
+        text-align: center;
+     }
+     </style>
+</head>
+<body id = "P-fondo">
+	<!--Contenido del documento-->
+    <div id="barra-nav">
+        <nav> <!-- Aqui estamos iniciando la nueva etiqueta nav -->
+            <ul class="nav">
+            <li><a href="Principal.html">P&aacute;gina Principal</a></li>
+            <li><a href="">Video Tutoriales</a>
+                <ul>
+                <li><a href="">Algebra</a></li>
+                <li><a href="">Geometria analitica</a></li>
+                <li><a href="">Geometria y Trigonometria</a></li>            
+                </ul>
+            </li>          
+            <li><a href="Formulario.html">Formularios</a>
+            </li>
+            <li><a href="Calculadora.html">Calculadora</a></li>
+            </ul> 
+    </div> 
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <br>
+    <font color="#FFFFFF" face="Helvetica" size="5">
+        <h1 id = "intro">BIENVENID@</h1>
+        <br>
+            <p> Las matem&aacute;ticas suelen ser un dolor de cabeza para algunos,pero con ayuda de algunos formularios y videos que aqu&iacute; te 
+                proporcionamos podr&aacute;s mejorar tu desempeño en esta &aacute;rea.</p>
+            <p> Este blog esta orientado a materias de la rama de matem&aacute;ticas que se cursan a nivel medio superiror</p>
+    </font>
+</body>
+</html>
