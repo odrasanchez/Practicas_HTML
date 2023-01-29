@@ -4,7 +4,7 @@ _Repositorio con compendio de ejercicios académicos para la introducción al de
 <br>
 
 ## Situación de repositorio 📊️
-<img src="https://img.shields.io/badge/Coverage-10%25-FFB4A2?style=for-the-badge" />  <img src="https://img.shields.io/github/stars/0draS0/Practicas_HTML?color=FFB4A2&style=for-the-badge" />  <img src="https://img.shields.io/badge/Version-1.0-FFB4A2?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Coverage-20%25-FFB4A2?style=for-the-badge" />  <img src="https://img.shields.io/github/stars/0draS0/Practicas_HTML?color=FFB4A2&style=for-the-badge" />  <img src="https://img.shields.io/badge/Version-1.0-FFB4A2?style=for-the-badge" />
 
 <br>
 
